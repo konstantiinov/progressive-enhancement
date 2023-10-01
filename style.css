@@ -1,0 +1,119 @@
+p {
+  font-size: 18px;
+  font-family: Georgia, serif;
+  color: darkred;
+  background: linear-gradient(90deg, rgb(225, 190, 52), rgb(38, 107, 177));
+  background-image: url("./pexels-joão-jesus-925743.jpg");
+  background-size: cover;
+  background-repeat: none;
+  background-position: bottom right;
+}
+
+a {
+  text-decoration: none;
+  color: #0078d4;
+  transition: color 0.2s;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: green;
+}
+
+a:visited {
+  color: #4c2dbd;
+}
+
+a:visited:hover {
+  color: rgb(111, 128, 0);
+}
+
+b {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+q {
+  quotes: "\201C""\201D"; /* Add the quotes correctly */
+  font-size: 160%;
+  font-style: italic;
+  background-color: #f2f2f2;
+  padding: 80px 30px; /* Adjust padding values */
+  margin: auto;
+  width: 50%;
+  display: block; /* Change to block to center vertically */
+  text-align: center; /* Center text horizontally */
+  border-left: 3px solid firebrick;
+}
+
+q:before {
+  content: open-quote;
+}
+
+q:after {
+  content: close-quote;
+}
+.farmer {
+  border-color: yellowgreen;
+}
+.villagers {
+  border-color: darkmagenta;
+}
+
+header > h2 {
+  background-color: yellow;
+}
+.Bad {
+  text-transform: capitalize;
+  color: red;
+}
+.Good {
+  text-transform: capitalize;
+  color: green;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+tr:nth-child(odd) {
+  background-color: white; /
+}
+
+ul{
+  display:inline-block;
+}
+
+ul li:nth-child(1){
+  background-image: url("bien.png"); 
+  background-repeat: no-repeat; 
+  background-size: contain; 
+  padding-right: 30px; 
+  background-position: right center; 
+}
+
+ul li:nth-child(2){
+
+  background-image: url("mal.png"); 
+  background-repeat: no-repeat; 
+  background-size: contain; 
+  padding-right: 30px; 
+  background-position: right center;
+  }
+
+ul li:nth-child(3){
+
+  background-image: url("chat.png"); 
+  background-repeat: no-repeat; 
+  background-size: contain; 
+  padding-right: 30px; 
+  background-position: right; 
+  }
+
+figure {
+  display: flex;
+  justify-content:none ;
+  align-items: center;
+  flex-wrap: wrap;
+}
+Head,Body,Footer {
+  font-family: 'Open Sans';
+}
